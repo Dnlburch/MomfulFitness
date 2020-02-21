@@ -1,18 +1,30 @@
 #title{
-  background-color: #ff2e63;
-  color: white;
+  background-color: #83C2D1;
+  color: #CD008A;
 }
 body{
   font-family: 'Montserrat', sans-serif;
 }
-
+a{
+  color: white;
+}
+a:hover{
+  color: #CD008A;
+}
 h1{
   font-size: 3.5rem;
   line-height: 1.5;
   margin: 2rem auto;
 }
+h3{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 .btn-outline-light{
-  background-color: #ff2e63;
+  background-color: #CD008A;
+}
+.btn-outline-light:hover{
+  color: #CD008A;
 }
 .container-fluid{
   padding: 3% 15%
@@ -24,8 +36,8 @@ h1{
 }
 .phnImg{
   border-radius: 40%;
-  border-width:1rem;
-  border-color: black;
+  border-width:.5rem;
+  border-color: #CD008A;
   border-style: solid;
 }
 /*title img caption*/
@@ -38,9 +50,6 @@ h1{
 .navbar-pad{
   padding:0 0 2rem;
 }
-.navtogRight{
-  margin: 0 0 auto auto;
-}
 .navbar-brand{
   font-family: 'Ubuntu';
   font-size: 2.5rem;
@@ -52,7 +61,17 @@ h1{
 .nav-link{
   font-size: 1.2rem;
   font-family: 'Montserrat';
-  font-weight: lighter;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #CD008A;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: white;
+}
+/*hamburger color */
+.navbar-light .navbar-toggler {
+    color: #CD008A;
+    border-color: #CD008A;
 }
 /* Download buttons */
 .titledownload-button{
@@ -61,4 +80,24 @@ h1{
 .titlebtncenter{
   display: block;
   margin: 1.5rem auto;
+}
+/* Features section */
+.center-text{
+  text-align: center;
+}
+.col-lg-4{
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+.featicon{
+  color: #CD008A;
+}
+.featicon:hover{
+  color: #83C2D1;
+}
+.fblink{
+  color: #0084FF;
+}
+.darkpurp-text{
+  color: #5c003d;
 }
