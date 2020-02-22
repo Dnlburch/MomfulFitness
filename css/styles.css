@@ -22,6 +22,17 @@ h1{
     text-align: center;
   }
 }
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+@media screen and (max-width: 350px){
+  h2{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
 h3{
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -106,4 +117,25 @@ h3{
 }
 .darkpurp-text{
   color: #5c003d;
+}
+/* Sucess stories */
+#success-stories{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #83C2D1;
+  color: #CD008A;
+}
+.successPic{
+  width: 300px;
+  border-radius: 50%;
+  
+}
+.picLoc{
+  padding-bottom: 20px;
+}
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23CD008A' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23CD008A' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
