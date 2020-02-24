@@ -2,8 +2,12 @@
   background-color: #83C2D1;
   color: #CD008A;
 }
+html, body{
+  overflow-x: hidden;
+}
 body{
   font-family: 'Montserrat', sans-serif;
+  
 }
 a{
   color: white;
