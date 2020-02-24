@@ -34,6 +34,7 @@ h2{
   }
 }
 h3{
+  font-size: 1.3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -103,7 +104,7 @@ h3{
 .center-text{
   text-align: center;
 }
-.col-lg-4{
+.ftpad{
   padding-top: 1.5rem;
   padding-bottom: 2rem;
 }
@@ -142,12 +143,28 @@ h3{
   padding: 7% 15%;
 }
 /* Blog cards */
-.cardContainer{
-  padding: 0;
-}
+
 .card-deck{
   padding: 2% 5%;
 }
+.btn-outline-dark{
+  color: #5c003d;
+  border-color: #5c003d;
+}
+.btn-outline-dark:hover {
+  background-color: #5c003d;
+  border-color: #5c003d;
+}
 .card{
-  border: none;
+  border-color: #5c003d;
+  margin-bottom: 15px !important;
+}
+
+/* Footer */
+footer{
+  background-color: #83C2D1;
+  }
+.copyright{
+  margin-bottom: 0;
+  padding: 1rem;
 }
