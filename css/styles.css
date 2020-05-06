@@ -124,7 +124,7 @@ h3{
 /* Sucess stories */
 #success-stories{
   text-align: center;
-  background-color: #83C2D1;
+  /* background-color: #83C2D1; */
   color: #CD008A;
 }
 .successPic{
@@ -151,17 +151,20 @@ h3{
   padding: 1rem 1rem;
 }
 /* Blog cards */
+.blog-section{
+  background-color:  #83C2D1;
+}
 
 .card-deck{
   padding: 2% 5%;
 }
 .btn-outline-dark{
-  color: #5c003d;
-  border-color: #5c003d;
+  color: #CD008A;
+  border-color: #CD008A;
 }
 .btn-outline-dark:hover {
-  background-color: #5c003d;
-  border-color: #5c003d;
+  background-color: #CD008A;
+  border-color: #CD008A;
 }
 .card{
   border-color: #5c003d;
